@@ -38,11 +38,11 @@ Part 3: Exploratory Analysis (55 points)<br>
 To receive all points, your Jupyter notebook analysis file must have all of the following:<br>
 Question 1: Which establishments have a hygiene score equal to 20? (8 points)<br>
 
-A query is correctly performed to find the establishments with a hygiene score of 20 (2 points)<br><br>
+DONE  A query is correctly performed to find the establishments with a hygiene score of 20 (2 points)<br><br>
 
-count_documents() is used to list the correct number of documents (answer: 41) (2 points)<br><br>
+DONE  count_documents() is used to list the correct number of documents (answer: 41) (2 points)<br><br>
 
-The first result is printed using pprint (2 points)<br><br>
+DONE  The first result is printed using pprint (2 points)<br><br>
 
 The results are converted to a Pandas DataFrame and displays the first 10 rows (2 points)<br><br>
 
