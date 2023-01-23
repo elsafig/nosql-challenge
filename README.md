@@ -44,19 +44,19 @@ DONE  count_documents() is used to list the correct number of documents (answer:
 
 DONE  The first result is printed using pprint (2 points)<br><br>
 
-The results are converted to a Pandas DataFrame and displays the first 10 rows (2 points)<br><br>
+DONE  The results are converted to a Pandas DataFrame and displays the first 10 rows (2 points)<br><br>
 
-Question 2: Which establishments in London have a RatingValue greater than or equal to 4? (12 points)<br><br>
+DONE  Question 2: Which establishments in London have a RatingValue greater than or equal to 4? (12 points)<br><br>
 
-A query is correctly performed to find the establishments in London with a RatingValue greater than or equal to 4 (4 points)<br><br>
+DONE  A query is correctly performed to find the establishments in London with a RatingValue greater than or equal to 4 (4 points)<br><br>
 
-The query uses the $regex operator to locate the London establishments (2 points)<br><br>
+DONE  The query uses the $regex operator to locate the London establishments (2 points)<br><br>
 
-count_documents() is used to list the correct number of documents (answer: 34) (2 points)<br><br>
+DONE  count_documents() is used to list the correct number of documents (answer: 34) (2 points)<br><br>
 
-The first result is printed using pprint (2 points)<br><br>
+DONE  The first result is printed using pprint (2 points)<br><br>
 
-The results are converted to a Pandas DataFrame and displays the first 10 rows (2 points)<br><br>
+DONE  The results are converted to a Pandas DataFrame and displays the first 10 rows (2 points)<br><br>
 
 Question 3: What are the top 5 establishments with a RatingValue of '5', sorted by lowest hygiene score, nearest to the new restaurant added, "Penang Flavours"? (15 points)<br><br>
 
@@ -90,14 +90,14 @@ The first ten results are printed using pprint (3 points)<br><br>
 
 The results are converted to a Pandas DataFrame and displays the first 10 rows (2 points)<br><br>
 
-Deployment and Submission (6 points)<br>
-To receive all points, you must:<br>
-Submit a link to a GitHub repository that’s cloned to your local machine and contains your files (2 points)<br><br>
+DONE  Deployment and Submission (6 points)<br>
+  To receive all points, you must:<br>
+  Submit a link to a GitHub repository that’s cloned to your local machine and contains your files (2 points)<br><br>
 
-Use the command line to add your files to the repository (2 points)<br><br>
+  Use the command line to add your files to the repository (2 points)<br><br>
 
-Include appropriate commit messages in your files (2 points)<br><br>
+  Include appropriate commit messages in your files (2 points)<br><br>
 
-Comments (4 points)<br>
-To receive all points, your code must:<br>
-Be well commented with concise, relevant notes that other developers can understand (4 points)
+DONE  Comments (4 points)<br>
+  To receive all points, your code must:<br>
+  Be well commented with concise, relevant notes that other developers can understand (4 points)
