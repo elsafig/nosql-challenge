@@ -2,37 +2,37 @@
 # Requirements<br><br>
 Part 1: Database and Jupyter Notebook Set Up (15 points)<br>
 To receive all points, your Jupyter notebook setup file must have all of the following:<br>
-Include the mongoimport command text you used to import establishments.json in a markdown cell at the beginning of your Jupyter notebook file (3 points)<br><br>
+DONE  Include the mongoimport command text you used to import establishments.json in a markdown cell at the beginning of your Jupyter notebook file (3 points)<br><br>
 
-The mongoimport command text correctly drops any existing establishments collection before importing establishments.json into MongoDB (2 points)<br><br>
+DONE  The mongoimport command text correctly drops any existing establishments collection before importing establishments.json into MongoDB (2 points)<br><br>
 
-The database is named uk_food and the collection is named establishments (2 points)<br><br>
+DONE  The database is named uk_food and the collection is named establishments (2 points)<br><br>
 
-Correctly imports PyMongo and Pretty Print (2 points)<br><br>
+DONE  Correctly imports PyMongo and Pretty Print (2 points)<br><br>
 
-An instance of the Mongo Client is created (1 point)<br><br>
+DONE  An instance of the Mongo Client is created (1 point)<br><br>
 
-Lists the databases you have in Mongo, which includes uk_food (1 point)<br><br>
+DONE  Lists the databases you have in Mongo, which includes uk_food (1 point)<br><br>
 
-Lists the collection(s) in the uk_food database, which includes establishments in the output (1 point)<br><br>
+DONE  Lists the collection(s) in the uk_food database, which includes establishments in the output (1 point)<br><br>
 
-Uses find_one() and pprint to display one document in the establishments collection (2 points)<br><br>
+DONE  Uses find_one() and pprint to display one document in the establishments collection (2 points)<br><br>
 
-The establishments collection is assigned to a variable (1 point)<br><br>
+DONE  The establishments collection is assigned to a variable (1 point)<br><br>
 
 Part 2: Update the Database (20 points)<br>
 To receive all points, your Jupyter notebook setup file must have all of the following:<br>
-The supplied data for the "Penang Flavours" restaurant is correctly inserted into the establishments collection (3 points)<br><br>
+DONE  The supplied data for the "Penang Flavours" restaurant is correctly inserted into the establishments collection (3 points)<br><br>
 
-A query is performed to find the BusinessTypeID for "Restaurant/Cafe/Canteen" and returns only the BusinessTypeID and BusinessType fields (3 points)<br><br>
+DONE  A query is performed to find the BusinessTypeID for "Restaurant/Cafe/Canteen" and returns only the BusinessTypeID and BusinessType fields (3 points)<br><br>
 
-The "Penang Flavours" document is updated with the correct value for BusinessTypeID (3 points)<br><br>
+DONE  The "Penang Flavours" document is updated with the correct value for BusinessTypeID (3 points)<br><br>
 
-A query is correctly performed to delete all the documents in the collection where "Dover Local Authority" is the value for LocalAuthorityName (3 points)<br><br>
+DONE  A query is correctly performed to delete all the documents in the collection where "Dover Local Authority" is the value for LocalAuthorityName (3 points)<br><br>
 
-A count_documents() check is performed before and after the removal of the Dover documents to ensure the documents were removed (4 points)<br><br>
+DONE  A count_documents() check is performed before and after the removal of the Dover documents to ensure the documents were removed (4 points)<br><br>
 
-An update_many() query is performed to convert the latitude and longitude fields from strings to decimal numbers (4 points)<br><br>
+DONE  An update_many() query is performed to convert the latitude and longitude fields from strings to decimal numbers (4 points)<br><br>
 
 Part 3: Exploratory Analysis (55 points)<br>
 To receive all points, your Jupyter notebook analysis file must have all of the following:<br>
